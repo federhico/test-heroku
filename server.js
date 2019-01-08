@@ -30,9 +30,7 @@ var server;
 
 server = http.createServer(app);
 server.listen(process.env.PORT || 5000, function(){
-    console.log(
-        "Listening"
-    )
+    
 });
         
         
