@@ -29,7 +29,7 @@ app.get('*', function (req, res, next) {
 var server;
 
 server = http.createServer(app);
-server.listen(5000, function(){
+server.listen(process.env.PORT || 5000, function(){
     console.log(
         "Listening"
     )
