@@ -4,6 +4,9 @@
   "scripts": {
     "start": "node server.js"
   },
+  "engines": {
+    "node": "10.x"
+  },
   "dependencies": {
     "MD5": "~1.2.1",
     "async": "^2.6.0",
